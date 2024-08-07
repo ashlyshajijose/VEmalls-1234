@@ -1,13 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Shopy from './components/Shopy'
+import Details from './components/Details'
 
 function App() {
   return (
     <div>
     <BrowserRouter>
     <Routes>
-        <Route path='shopy' element={<Shopy/>}/>
+        <Route path='details' element={<Details/>}/>
     </Routes>
     </BrowserRouter>
     </div>
