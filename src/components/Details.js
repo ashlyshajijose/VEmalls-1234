@@ -185,12 +185,25 @@ function Details() {
 
 <div class="card">
 
-  <div class="card-header" style={{fontSize: "40px"}}>NSK ANAMTHARA Resorts PVT Ltd </div>
+  <div class="card-header" style={{fontSize: "40px",marginLeft:'20px'}}>NSK ANAMTHARA Resorts PVT Ltd </div>
   <div class="card-body">
-  <i class="fas fa-location-dot"></i> Kottiyodu, Attingal, Trivandrum, Kerala, India
-   <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary" data-mdb-ripple-init>Go somewhere</a>
+  <i class="fas fa-location-dot" style={{marginLeft:'20px'}}></i> Kottiyodu, Attingal, Trivandrum, Kerala, India
+   <h5 class="card-title" style={{marginLeft:'20px'}}>Special title treatment</h5>
+    <p class="card-text" style={{marginLeft:'20px'}}>With supporting text below as a natural lead-in to additional content.</p>
+   
+    <button type="button" class="btn btn-primary" data-mdb-ripple-init style={{marginLeft:'20px'}}>3.1</button>
+    <button type="button" class="btn btn-primary" data-mdb-ripple-init style={{marginLeft:'5px'}}>23 Ratings</button>
+    <button type="button" class="btn btn-primary" data-mdb-ripple-init style={{marginLeft:'5px'}}>91 Reviews</button>
+    <button type="button" class="btn btn-primary" data-mdb-ripple-init style={{marginLeft:'5px'}}>5 views</button>
+    <div>
+    <img
+          style={{marginLeft:'680px',marginTop:'-350px'}}
+          src="https://vemalls.online/images/qr-code-mainpage.jpg"
+          height="160"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+    </div>
   </div>
 </div>
 <div>
